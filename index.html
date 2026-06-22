@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f3efe5" />
+    <link rel="icon" href="./assets/avatar.jpg" />
+    <meta
+      name="description"
+      content="Календарь выпусков и пауз подкаста «Осторожно, раскрашено!» с 2015 года."
+    />
+    <title>Осторожно, раскрашено! — Hiatus Chart</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <header class="hero">
+        <div class="hero__eyebrow">Архив с 2015 года</div>
+        <div class="hero__title-row">
+          <h1><span>Осторожно,<br />раскрашено!</span><br />Hiatus Chart</h1>
+          <img
+            class="hero__mark"
+            src="./assets/avatar.jpg"
+            alt="Логотип подкаста «Осторожно, раскрашено!»"
+          />
+        </div>
+        <p class="hero__intro">
+          Архив самого подкаста о комиксах
+        </p>
+      </header>
+
+      <section class="panel controls" aria-labelledby="chart-title">
+        <div class="controls__topline">
+          <div>
+            <p class="kicker">Лента времени</p>
+            <h2 id="chart-title">Когда выходили выпуски</h2>
+          </div>
+          <label class="select-wrap">
+            <span>Формат</span>
+            <select id="series-filter" aria-label="Фильтр по формату"></select>
+          </label>
+        </div>
+
+        <div class="legend" aria-label="Легенда">
+          <span><i class="legend__swatch is-release"></i>был выпуск</span>
+          <span><i class="legend__swatch is-hiatus"></i>пауза</span>
+        </div>
+
+        <div id="chart" class="chart" aria-live="polite"></div>
+        <div id="episode-card" class="episode-card" hidden></div>
+      </section>
+
+      <section class="stats-grid" aria-label="Статистика">
+        <article class="stat panel">
+          <span class="stat__label">Выпусков</span>
+          <strong id="stat-releases">—</strong>
+          <span id="stat-releases-note">в выбранном формате</span>
+        </article>
+        <article class="stat panel">
+          <span class="stat__label">Текущая пауза</span>
+          <strong id="stat-current">—</strong>
+          <span id="stat-current-note">полных недель</span>
+        </article>
+        <article class="stat panel">
+          <span class="stat__label">Самая длинная пауза</span>
+          <strong id="stat-longest">—</strong>
+          <span id="stat-longest-note">недель без выпусков</span>
+        </article>
+        <article class="stat stat--accent panel">
+          <span class="stat__label">Последний выпуск</span>
+          <strong id="stat-latest">—</strong>
+          <span id="stat-latest-note">—</span>
+        </article>
+      </section>
+
+      <section class="panel rubrics" aria-labelledby="rubrics-title">
+        <div class="section-heading">
+          <p class="kicker">Структура архива</p>
+          <h2 id="rubrics-title">По рубрикам</h2>
+        </div>
+        <div id="rubric-stats" class="rubric-grid"></div>
+      </section>
+
+      <section class="panel rhythm" aria-labelledby="rhythm-title">
+        <div class="section-heading">
+          <p class="kicker">По годам</p>
+          <h2 id="rhythm-title">Ритм публикаций</h2>
+        </div>
+        <div id="year-bars" class="year-bars"></div>
+      </section>
+
+      <footer class="footer">
+        <p>
+          Данные:
+          <a
+            href="https://podster.fm/rss.xml?pid=26502"
+            target="_blank"
+            rel="noreferrer"
+            >RSS подкаста на Podster</a
+          >.
+        </p>
+        <p id="updated-at"></p>
+      </footer>
+    </main>
+
+    <script src="./data/episodes.js"></script>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

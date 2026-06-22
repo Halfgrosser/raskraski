@@ -1,0 +1,10 @@
+{
+  "name": "raskraski-hiatus-chart",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "sync": "node scripts/sync-data.mjs",
+    "dev": "python3 -m http.server 4173",
+    "build": "node scripts/build.mjs"
+  }
+}
