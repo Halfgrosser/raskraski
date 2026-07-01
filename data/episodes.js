@@ -1,7 +1,7 @@
 window.__RASKRASKI_DATA__ = {
   "source": "https://podster.fm/rss.xml?pid=26502",
   "title": "Раскрашенные Раскраски",
-  "updatedAt": "2026-06-22",
+  "updatedAt": "2026-07-01",
   "episodes": [
     {
       "id": "http://warningcolored.podster.fm/1",
@@ -6552,6 +6552,48 @@ window.__RASKRASKI_DATA__ = {
       "description": "Superman: Father of Tomorrow #1 · Supergirl: Survive #1 · The Deadman #1 · Batman #163 · Superman #38 · The Flash #33 · Zatanna #2 · Absolute Wonder Woman #20 · Batman #10 · Doomquest #1 · Wiccan & Hulkling: Raid of Ultron · What If...? Uncanny X-Men · Amazing Spider-Man #30 · The Amazing Spider-Man: Spider-Versity #2 · The Ultimates #24 · Junk Punch #1 · Only the Savage Are Left #1 · In Your Skin #2 · Corpse Knight #2 & Red Roots #2 · Escape #7 · Exquisite Corpses #13",
       "source": "podster-rss",
       "link": "https://warningcolored.podster.fm/e/469691/rr-na-pulse-160626"
+    },
+    {
+      "id": "a2276078-e19b-4e9e-9ee8-abcc9e8ae941",
+      "podcast": "РР на пульсе",
+      "number": 337,
+      "publication": "2026-07-01",
+      "title": "РР на пульсе: 01.07.26",
+      "topics": [
+        "Absolute Catwoman #1",
+        "Absolute Green Arrow #2",
+        "Absolute Batman #21",
+        "Absolute Wonder Woman #21",
+        "Absolute Superman #20",
+        "Bizarro: Year None #2",
+        "Superman: Father of Tomorrow #2",
+        "Barbara Gordon: Breakout #2",
+        "The Fury of Firestorm #3",
+        "Superman #39",
+        "Batman: Gargoyle of Gotham",
+        "Avengers: Armageddon #1 + Captain America #12 + Wolverine: Weapons of Armageddon",
+        "Spider-Man: Long Way Home #1",
+        "Jay & Silent Bob: Jays of Future Past",
+        "What If...? Thor",
+        "Black Cat #11",
+        "Daredevil #3",
+        "Doomquest #2",
+        "The Amazing Spider-Man #31",
+        "The Amazing Spider-Man: Spider-Versity #3",
+        "Venom #259",
+        "Sentry #4",
+        "Ultimate Endgame #5 + Ultimate Universe: Finale",
+        "Skate Ali #1",
+        "M1: Monster Racing League #1",
+        "The Eye Collector #1",
+        "Odin #2",
+        "If Destruction Be Our Lot #2",
+        "Of the Earth #2",
+        "Escape #8"
+      ],
+      "description": "Absolute Catwoman #1 · Absolute Green Arrow #2 · Absolute Batman #21 · Absolute Wonder Woman #21 · Absolute Superman #20 · Bizarro: Year None #2 · Superman: Father of Tomorrow #2 · Barbara Gordon: Breakout #2 · The Fury of Firestorm #3 · Superman #39 · Batman: Gargoyle of Gotham · Avengers: Armageddon #1 + Captain America #12 + Wolverine: Weapons of Armageddon · Spider-Man: Long Way Home #1 · Jay & Silent Bob: Jays of Future Past · What If...? Thor · Black Cat #11 · Daredevil #3 · Doomquest #2 · The Amazing Spider-Man #31 · The Amazing Spider-Man: Spider-Versity #3 · Venom #259 · Sentry #4 · Ultimate Endgame #5 + Ultimate Universe: Finale · Skate Ali #1 · M1: Monster Racing League #1 · The Eye Collector #1 · Odin #2 · If Destruction Be Our Lot #2 · Of the Earth #2 · Escape #8",
+      "source": "podster-rss",
+      "link": "https://warningcolored.podster.fm/e/471479/rr-na-pulse-010726"
     }
   ]
 };
