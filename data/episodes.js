@@ -1,7 +1,7 @@
 window.__RASKRASKI_DATA__ = {
   "source": "https://podster.fm/rss.xml?pid=26502",
   "title": "Раскрашенные Раскраски",
-  "updatedAt": "2026-07-01",
+  "updatedAt": "2026-07-08",
   "episodes": [
     {
       "id": "http://warningcolored.podster.fm/1",
@@ -6594,6 +6594,25 @@ window.__RASKRASKI_DATA__ = {
       "description": "Absolute Catwoman #1 · Absolute Green Arrow #2 · Absolute Batman #21 · Absolute Wonder Woman #21 · Absolute Superman #20 · Bizarro: Year None #2 · Superman: Father of Tomorrow #2 · Barbara Gordon: Breakout #2 · The Fury of Firestorm #3 · Superman #39 · Batman: Gargoyle of Gotham · Avengers: Armageddon #1 + Captain America #12 + Wolverine: Weapons of Armageddon · Spider-Man: Long Way Home #1 · Jay & Silent Bob: Jays of Future Past · What If...? Thor · Black Cat #11 · Daredevil #3 · Doomquest #2 · The Amazing Spider-Man #31 · The Amazing Spider-Man: Spider-Versity #3 · Venom #259 · Sentry #4 · Ultimate Endgame #5 + Ultimate Universe: Finale · Skate Ali #1 · M1: Monster Racing League #1 · The Eye Collector #1 · Odin #2 · If Destruction Be Our Lot #2 · Of the Earth #2 · Escape #8",
       "source": "podster-rss",
       "link": "https://warningcolored.podster.fm/e/471479/rr-na-pulse-010726"
+    },
+    {
+      "id": "a22f9bb1-11cd-462d-8359-010853116636",
+      "podcast": "Премия Айснера",
+      "number": 338,
+      "publication": "2026-07-05",
+      "title": "РР #194: Айснер-26: лучшие новинки",
+      "topics": [
+        "Айснер-26: лучшие новинки",
+        "Batman Vol. 4 (Мэтт Фрэкшн / Хорхе Хименес)",
+        "Black Cat (Г. Уиллоу Уилсон / Глеб Мельников)",
+        "Exquisite Corpses (Джеймс Тайнин IV, Майкл Уолш и многие другие)",
+        "Assorted Crisis Events (Денис Кэмп / Эрик Завадзки)",
+        "Ghost Pepper (Людо Люллаби)",
+        "Temporal (Стефани Уильямс / Асайя Фулмор)"
+      ],
+      "description": "Айснер-26: лучшие новинки · Batman Vol. 4 (Мэтт Фрэкшн / Хорхе Хименес) · Black Cat (Г. Уиллоу Уилсон / Глеб Мельников) · Exquisite Corpses (Джеймс Тайнин IV, Майкл Уолш и многие другие) · Assorted Crisis Events (Денис Кэмп / Эрик Завадзки) · Ghost Pepper (Людо Люллаби) · Temporal (Стефани Уильямс / Асайя Фулмор)",
+      "source": "podster-rss",
+      "link": "https://warningcolored.podster.fm/e/471931/rr-194-aysner-26-luchshie-novinki"
     }
   ]
 };
