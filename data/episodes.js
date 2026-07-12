@@ -1,7 +1,7 @@
 window.__RASKRASKI_DATA__ = {
   "source": "https://podster.fm/rss.xml?pid=26502",
   "title": "Раскрашенные Раскраски",
-  "updatedAt": "2026-07-08",
+  "updatedAt": "2026-07-12",
   "episodes": [
     {
       "id": "http://warningcolored.podster.fm/1",
@@ -6613,6 +6613,25 @@ window.__RASKRASKI_DATA__ = {
       "description": "Айснер-26: лучшие новинки · Batman Vol. 4 (Мэтт Фрэкшн / Хорхе Хименес) · Black Cat (Г. Уиллоу Уилсон / Глеб Мельников) · Exquisite Corpses (Джеймс Тайнин IV, Майкл Уолш и многие другие) · Assorted Crisis Events (Денис Кэмп / Эрик Завадзки) · Ghost Pepper (Людо Люллаби) · Temporal (Стефани Уильямс / Асайя Фулмор)",
       "source": "podster-rss",
       "link": "https://warningcolored.podster.fm/e/471931/rr-194-aysner-26-luchshie-novinki"
+    },
+    {
+      "id": "a23dcd8c-a78e-4ab4-9c52-478f7f20fbee",
+      "podcast": "Премия Айснера",
+      "number": 339,
+      "publication": "2026-07-12",
+      "title": "РР #195: Айснер-26: лучшие лимитки",
+      "topics": [
+        "Айснер-26: лучшие лимитки",
+        "Absolute Martian Manhunter (Денис Кэмп / Хавьер Родригес)",
+        "Beneath The Trees Where Nobody Sees: Rite of Spring (Патрик Хорват)",
+        "Everything Dead and Dying (Тейт Бромбал / Джейкоб Филлипс)",
+        "Out of Alcatraz (Кристофер Кэнтвелл / Тайлер Крук)",
+        "Bronze Faces (Шобо и Шоф / Александр Тефенкги)",
+        "Crownsville (Родни Барнс / Элиа Бонетти)"
+      ],
+      "description": "Айснер-26: лучшие лимитки · Absolute Martian Manhunter (Денис Кэмп / Хавьер Родригес) · Beneath The Trees Where Nobody Sees: Rite of Spring (Патрик Хорват) · Everything Dead and Dying (Тейт Бромбал / Джейкоб Филлипс) · Out of Alcatraz (Кристофер Кэнтвелл / Тайлер Крук) · Bronze Faces (Шобо и Шоф / Александр Тефенкги) · Crownsville (Родни Барнс / Элиа Бонетти)",
+      "source": "podster-rss",
+      "link": "https://warningcolored.podster.fm/e/472934/rr-195-aysner-26-luchshie-limitki"
     }
   ]
 };
