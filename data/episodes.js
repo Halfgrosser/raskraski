@@ -1,7 +1,7 @@
 window.__RASKRASKI_DATA__ = {
   "source": "https://podster.fm/rss.xml?pid=26502",
   "title": "Раскрашенные Раскраски",
-  "updatedAt": "2026-07-12",
+  "updatedAt": "2026-08-10",
   "episodes": [
     {
       "id": "http://warningcolored.podster.fm/1",
@@ -6632,6 +6632,71 @@ window.__RASKRASKI_DATA__ = {
       "description": "Айснер-26: лучшие лимитки · Absolute Martian Manhunter (Денис Кэмп / Хавьер Родригес) · Beneath The Trees Where Nobody Sees: Rite of Spring (Патрик Хорват) · Everything Dead and Dying (Тейт Бромбал / Джейкоб Филлипс) · Out of Alcatraz (Кристофер Кэнтвелл / Тайлер Крук) · Bronze Faces (Шобо и Шоф / Александр Тефенкги) · Crownsville (Родни Барнс / Элиа Бонетти)",
       "source": "podster-rss",
       "link": "https://warningcolored.podster.fm/e/472934/rr-195-aysner-26-luchshie-limitki"
+    },
+    {
+      "id": "a24c5984-646e-4894-9dbf-646983a22dc5",
+      "podcast": "Премия Айснера",
+      "number": 340,
+      "publication": "2026-07-19",
+      "title": "РР #196: Айснер-26: лучшие онгоинги",
+      "topics": [
+        "Айснер-26: лучшие онгоинги",
+        "Absolute Batman (Скотт Снайдер / Ник Драготта и др.)",
+        "Absolute Wonder Woman (Келли Томпсон / Хэйден Шерман и Маттиа де Июлис)",
+        "Storm (Мурева Айоделе / Лукас Уернек и др.)",
+        "The Power Fantasy (Кирон Гиллен / Каспар Вингард)",
+        "The Department of Truth (Джеймс Тайнин IV / Мартин Симмондс)",
+        "FML (Келли Сью Деконник / Давид Лопес)"
+      ],
+      "description": "Айснер-26: лучшие онгоинги · Absolute Batman (Скотт Снайдер / Ник Драготта и др.) · Absolute Wonder Woman (Келли Томпсон / Хэйден Шерман и Маттиа де Июлис) · Storm (Мурева Айоделе / Лукас Уернек и др.) · The Power Fantasy (Кирон Гиллен / Каспар Вингард) · The Department of Truth (Джеймс Тайнин IV / Мартин Симмондс) · FML (Келли Сью Деконник / Давид Лопес)",
+      "source": "podster-rss",
+      "link": "https://warningcolored.podster.fm/e/473589/rr-196-aysner-26-luchshie-ongoingi"
+    },
+    {
+      "id": "a275d132-bcbb-40aa-880d-feed2c3618cf",
+      "podcast": "РР на пульсе",
+      "number": 341,
+      "publication": "2026-08-09",
+      "title": "РР на пульсе: июль 2026",
+      "topics": [
+        "Clayface: Celebrity Dirt #1",
+        "Batman #11",
+        "The Flash #35",
+        "Absolute Batman #22",
+        "Absolute Wonder Woman #22",
+        "Absolute Green Arrow #3",
+        "Absolute Superman #21",
+        "Absolute Catwoman #2",
+        "Absolute Martian Manhunter #12",
+        "Superman #40",
+        "Batman / Green Arrow / The Question: Arcadia #4",
+        "Queen in Black #1",
+        "Queen in Black: Defenders of Light and Dark #1",
+        "Queen in Black: Hela #1",
+        "Avengers: Armageddon #2",
+        "Captain America #13",
+        "Marvel Swimsuit Special: Brand New Beach Day",
+        "What If...? Secret Wars",
+        "What If...? Jessica Jones",
+        "Alias: Red Band #5",
+        "Jeff the Land Shark: Superstar #1",
+        "Punisher vs. Spider-Man #1",
+        "The Amazing Spider-Man #32-33",
+        "The Amazing Spider-Man: Spider-Versity #4",
+        "Black Cat #12",
+        "Doomquest #3",
+        "100 Bullets: The US of Anger #1",
+        "End of Life #6",
+        "Bleeding Hearts #6",
+        "The Peril of the Brutal Dark: An Ezra Cain Mystery #6",
+        "Exquisite Corpses: Rascal Randy #1",
+        "Killer Influences #1",
+        "Assorted Crisis Events #9",
+        "Narco"
+      ],
+      "description": "Clayface: Celebrity Dirt #1 · Batman #11 · The Flash #35 · Absolute Batman #22 · Absolute Wonder Woman #22 · Absolute Green Arrow #3 · Absolute Superman #21 · Absolute Catwoman #2 · Absolute Martian Manhunter #12 · Superman #40 · Batman / Green Arrow / The Question: Arcadia #4 · Queen in Black #1 · Queen in Black: Defenders of Light and Dark #1 · Queen in Black: Hela #1 · Avengers: Armageddon #2 · Captain America #13 · Marvel Swimsuit Special: Brand New Beach Day · What If...? Secret Wars · What If...? Jessica Jones · Alias: Red Band #5 · Jeff the Land Shark: Superstar #1 · Punisher vs. Spider-Man #1 · The Amazing Spider-Man #32-33 · The Amazing Spider-Man: Spider-Versity #4 · Black Cat #12 · Doomquest #3 · 100 Bullets: The US of Anger #1 · End of Life #6 · Bleeding Hearts #6 · The Peril of the Brutal Dark: An Ezra Cain Mystery #6 · Exquisite Corpses: Rascal Randy #1 · Killer Influences #1 · Assorted Crisis Events #9 · Narco",
+      "source": "podster-rss",
+      "link": "https://warningcolored.podster.fm/e/475801/rr-na-pulse-iyul-2026"
     }
   ]
 };
