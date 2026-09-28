@@ -39,7 +39,14 @@ const episodes = data.episodes
   .map((episode) => ({ ...episode, date: new Date(`${episode.publication}T12:00:00`) }))
   .sort((a, b) => a.date - b.date);
 
-const formats = [...new Set(episodes.flatMap((episode) => episodeFormats(episode)))];
+const formatOrder = ["РР на пульсе", "РР+", EISNER_FORMAT, "Прямые эфиры", "РР на Канобу", MAIN_FORMAT];
+const formats = [...new Set(episodes.flatMap((episode) => episodeFormats(episode)))].sort(
+  (a, b) => {
+    const ia = formatOrder.indexOf(a);
+    const ib = formatOrder.indexOf(b);
+    return (ia === -1 ? formatOrder.length : ia) - (ib === -1 ? formatOrder.length : ib) || a.localeCompare(b, "ru");
+  },
+);
 filter.innerHTML = ["all", ...formats]
   .map((name) => `<option value="${escapeHtml(name)}">${escapeHtml(formatNames[name] || name)}</option>`)
   .join("");
