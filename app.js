@@ -21,6 +21,15 @@ const formatNames = {
   all: "Все форматы",
 };
 
+// Категория выпуска может быть строкой или списком строк (выпуск в нескольких рубриках).
+function episodeFormats(episode) {
+  return Array.isArray(episode.podcast) ? episode.podcast : [episode.podcast];
+}
+
+function formatLabel(episode) {
+  return episodeFormats(episode).join(" · ");
+}
+
 if (!data?.episodes?.length) {
   chart.innerHTML = '<p class="error">Не удалось загрузить данные выпусков. Запустите <code>npm run sync</code>.</p>';
   throw new Error("Episode data is missing");
@@ -30,7 +39,7 @@ const episodes = data.episodes
   .map((episode) => ({ ...episode, date: new Date(`${episode.publication}T12:00:00`) }))
   .sort((a, b) => a.date - b.date);
 
-const formats = [...new Set(episodes.map((episode) => episode.podcast))];
+const formats = [...new Set(episodes.flatMap((episode) => episodeFormats(episode)))];
 filter.innerHTML = ["all", ...formats]
   .map((name) => `<option value="${escapeHtml(name)}">${escapeHtml(formatNames[name] || name)}</option>`)
   .join("");
@@ -43,7 +52,7 @@ render();
 
 function render() {
   const selected = filter.value || "all";
-  const visible = selected === "all" ? episodes : episodes.filter((episode) => episode.podcast === selected);
+  const visible = selected === "all" ? episodes : episodes.filter((episode) => episodeFormats(episode).includes(selected));
   renderChart(visible);
   renderStats(visible);
   renderBars(visible);
@@ -125,8 +134,10 @@ function showWeek(isoDate, found) {
 function renderRubrics() {
   const counts = new Map(rubricOrder.map((name) => [name, 0]));
   for (const episode of episodes) {
-    const name = episode.podcast === EISNER_FORMAT ? MAIN_FORMAT : episode.podcast;
-    counts.set(name, (counts.get(name) || 0) + 1);
+    for (const format of episodeFormats(episode)) {
+      const name = format === EISNER_FORMAT ? MAIN_FORMAT : format;
+      counts.set(name, (counts.get(name) || 0) + 1);
+    }
   }
   rubricStats.innerHTML = rubricOrder
     .map((name) => {
@@ -166,8 +177,8 @@ function renderStats(visible) {
   setText("stat-current-note", plural(current, "полная неделя", "полные недели", "полных недель"));
   setText("stat-longest", longest);
   setText("stat-longest-note", plural(longest, "неделя без выпусков", "недели без выпусков", "недель без выпусков"));
-  setText("stat-latest", latest ? (latest.number ? `#${latest.number}` : latest.podcast) : "—");
-  setText("stat-latest-note", latest ? `${latest.podcast} · ${ruDate.format(latest.date)}` : "Нет выпусков");
+  setText("stat-latest", latest ? (latest.number ? `#${latest.number}` : formatLabel(latest)) : "—");
+  setText("stat-latest-note", latest ? `${formatLabel(latest)} · ${ruDate.format(latest.date)}` : "Нет выпусков");
 }
 
 function renderBars(visible) {
@@ -228,7 +239,7 @@ function addDays(date, count) {
 }
 
 function episodeLabel(episode) {
-  return episode.title || `${episode.podcast} ${episode.number ? `#${episode.number}` : ""}`.trim();
+  return episode.title || `${formatLabel(episode)} ${episode.number ? `#${episode.number}` : ""}`.trim();
 }
 
 function setText(id, text) {

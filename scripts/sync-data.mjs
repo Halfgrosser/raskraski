@@ -3,6 +3,12 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const RSS_URL = process.env.RSS_URL || "https://podster.fm/rss.xml?pid=26502";
+
+// Выпуски, относящиеся сразу к нескольким рубрикам: id -> список категорий.
+const FORMAT_OVERRIDES = {
+  // «РР+ #38: Santos Sisters (Айснер-25, лучший онгоинг)» — и РР+, и Премия Айснера.
+  "9f899355-6781-494b-81e9-776adb8add39": ["РР+", "Премия Айснера"],
+};
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const output = resolve(root, "data/episodes.js");
 const rss = await loadSource(RSS_URL, process.env.SYNC_RSS_FILE);
@@ -43,7 +49,7 @@ function parseRss(input) {
     const episodeNumber = Number(xmlTag(item, "itunes:episode")) || null;
     return {
       id: xmlTag(item, "guid") || `episode-${index + 1}`,
-      podcast: inferFormat(title),
+      podcast: FORMAT_OVERRIDES[xmlTag(item, "guid")] || inferFormat(title),
       number: episodeNumber,
       publication: toIsoDate(xmlTag(item, "pubDate")),
       title,

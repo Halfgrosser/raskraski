@@ -6006,7 +6006,10 @@ window.__RASKRASKI_DATA__ = {
     },
     {
       "id": "9f899355-6781-494b-81e9-776adb8add39",
-      "podcast": "Премия Айснера",
+      "podcast": [
+        "РР+",
+        "Премия Айснера"
+      ],
       "number": 319,
       "publication": "2025-08-02",
       "title": "РР+ #38: Santos Sisters (Айснер-25, лучший онгоинг)",
