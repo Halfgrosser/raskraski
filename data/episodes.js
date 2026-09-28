@@ -1,7 +1,7 @@
 window.__RASKRASKI_DATA__ = {
   "source": "https://podster.fm/rss.xml?pid=26502",
   "title": "Раскрашенные Раскраски",
-  "updatedAt": "2026-09-21",
+  "updatedAt": "2026-09-28",
   "episodes": [
     {
       "id": "http://warningcolored.podster.fm/1",
@@ -6752,8 +6752,8 @@ window.__RASKRASKI_DATA__ = {
       "title": "РР на пульсе: 20.09.26",
       "topics": [
         "The Doom Patrol #1",
-        "Legion of Super-Heroes #1",
         "Teen Titans #1",
+        "Legion of Super-Heroes #1",
         "Superman: The Stranger #1",
         "Batman / Superman / Weird Al: World's Weirdest",
         "Poison Ivy #47",
@@ -6779,9 +6779,22 @@ window.__RASKRASKI_DATA__ = {
         "Six of Us #1",
         "Royals"
       ],
-      "description": "The Doom Patrol #1 · Legion of Super-Heroes #1 · Teen Titans #1 · Superman: The Stranger #1 · Batman / Superman / Weird Al: World's Weirdest · Poison Ivy #47 · Batman: Bad Seeds - Sunset · Batman #13 · Batgirl #23 · Batman: Bad Seeds - Gotham Central #1 · The Fury of Firestorm #6 · Batman and Robin: Year One - Dynamic Duos #2 · Black Panther / Mamor: Doomed #1 · Captain America #15 · Marvel Gold '76 · Spider-Woman 50th Anniversary Special · Doomquest #4 · Venom #261 · Black Cat #14 · Iron Man #9 · Tales of Wonder #1 · Crowbound #1 · The Forever Home #1 · The Karman Blade #1 · Archie #1 · Six of Us #1 · Royals",
+      "description": "The Doom Patrol #1 · Teen Titans #1 · Legion of Super-Heroes #1 · Superman: The Stranger #1 · Batman / Superman / Weird Al: World's Weirdest · Poison Ivy #47 · Batman: Bad Seeds - Sunset · Batman #13 · Batgirl #23 · Batman: Bad Seeds - Gotham Central #1 · The Fury of Firestorm #6 · Batman and Robin: Year One - Dynamic Duos #2 · Black Panther / Mamor: Doomed #1 · Captain America #15 · Marvel Gold '76 · Spider-Woman 50th Anniversary Special · Doomquest #4 · Venom #261 · Black Cat #14 · Iron Man #9 · Tales of Wonder #1 · Crowbound #1 · The Forever Home #1 · The Karman Blade #1 · Archie #1 · Six of Us #1 · Royals",
       "source": "podster-rss",
       "link": "https://warningcolored.podster.fm/e/480568/rr-na-pulse-200926"
+    },
+    {
+      "id": "a2d455f9-be0f-4111-bbc3-7b0db11a150b",
+      "podcast": "РР+",
+      "number": 344,
+      "publication": "2026-09-25",
+      "title": "РР+ #39: Marvel Dimensions",
+      "topics": [
+        "Marvel Dimensions"
+      ],
+      "description": "Marvel Dimensions",
+      "source": "podster-rss",
+      "link": "https://warningcolored.podster.fm/e/482109/rr-39-marvel-dimensions"
     }
   ]
 };
