@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "sync": "node scripts/sync-data.mjs",
-    "dev": "python3 -m http.server 4173",
+    "dev": "sh -c 'python3 -m http.server \"${1:-4173}\"' --",
     "build": "node scripts/build.mjs"
   }
 }
