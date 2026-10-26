@@ -1,7 +1,7 @@
 window.__RASKRASKI_DATA__ = {
   "source": "https://podster.fm/rss.xml?pid=26502",
   "title": "Раскрашенные Раскраски",
-  "updatedAt": "2026-09-28",
+  "updatedAt": "2026-10-26",
   "episodes": [
     {
       "id": "http://warningcolored.podster.fm/1",
@@ -1980,9 +1980,12 @@ window.__RASKRASKI_DATA__ = {
       "publication": "2019-01-06",
       "title": "РР на Канобу #12: Драматическая сторона Дэдпула",
       "topics": [
-        "Драматическая сторона Дэдпула"
+        "Драматическая сторона Дэдпула",
+        "Sins of the Past Марка Уэйда",
+        "раны Джо Келли",
+        "Кристофера Приста"
       ],
-      "description": "Драматическая сторона Дэдпула",
+      "description": "Драматическая сторона Дэдпула · Sins of the Past Марка Уэйда · раны Джо Келли · Кристофера Приста",
       "source": "podster-rss",
       "link": "https://warningcolored.podster.fm/141"
     },
@@ -6798,6 +6801,49 @@ window.__RASKRASKI_DATA__ = {
       "description": "Marvel Dimensions",
       "source": "podster-rss",
       "link": "https://warningcolored.podster.fm/e/482109/rr-39-marvel-dimensions"
+    },
+    {
+      "id": "a30f18af-ccd5-4819-9398-610cecaa8ca2",
+      "podcast": "РР на пульсе",
+      "number": 345,
+      "publication": "2026-10-24",
+      "title": "РР на пульсе: 24.10.26",
+      "topics": [
+        "The Demon #1",
+        "Jonah Hex and the Shadow of Death #1",
+        "Legion of Super-Heroes #2",
+        "Teen Titans #2",
+        "The Doom Patrol #2",
+        "Absolute Cassandra Cain: The Shadow's Hand",
+        "Absolute Wonder Woman #24",
+        "Absolute Batman #24",
+        "Batman Day 2026: Batman of Two Worlds",
+        "Batman #14",
+        "Batman: Bad Seeds",
+        "Midnight Spider-Man #1",
+        "Midnight X-Men #1",
+        "Midnight Fantastic Four #1",
+        "Wolverine: Paradise #1",
+        "Doom All-On-One",
+        "Alien vs. X-Men #1",
+        "The Muppets Take the Marvel Universe",
+        "Spider-Man: Long Way Home #3",
+        "Punisher vs. Spider-Man #3",
+        "Queen in Black",
+        "Venom #1",
+        "Avengers: Armageddon #4",
+        "The Amazing Spider-Man #1000-1001",
+        "Exquisite Corpses: Fox Mask Killer #1",
+        "The Big Shakedown #1",
+        "Crimes Against Nature #1",
+        "Sabrina the Teenage Witch #1",
+        "You'll Never Leave This Place Alive #1",
+        "Beneath the Trees Where Nobody Sees: Halloween Special",
+        "Corpse Knight"
+      ],
+      "description": "The Demon #1 · Jonah Hex and the Shadow of Death #1 · Legion of Super-Heroes #2 · Teen Titans #2 · The Doom Patrol #2 · Absolute Cassandra Cain: The Shadow's Hand · Absolute Wonder Woman #24 · Absolute Batman #24 · Batman Day 2026: Batman of Two Worlds · Batman #14 · Batman: Bad Seeds · Midnight Spider-Man #1 · Midnight X-Men #1 · Midnight Fantastic Four #1 · Wolverine: Paradise #1 · Doom All-On-One · Alien vs. X-Men #1 · The Muppets Take the Marvel Universe · Spider-Man: Long Way Home #3 · Punisher vs. Spider-Man #3 · Queen in Black · Venom #1 · Avengers: Armageddon #4 · The Amazing Spider-Man #1000-1001 · Exquisite Corpses: Fox Mask Killer #1 · The Big Shakedown #1 · Crimes Against Nature #1 · Sabrina the Teenage Witch #1 · You'll Never Leave This Place Alive #1 · Beneath the Trees Where Nobody Sees: Halloween Special · Corpse Knight",
+      "source": "podster-rss",
+      "link": "https://warningcolored.podster.fm/e/514221/rr-na-pulse-241026"
     }
   ]
 };
