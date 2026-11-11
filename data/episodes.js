@@ -1,7 +1,7 @@
 window.__RASKRASKI_DATA__ = {
   "source": "https://podster.fm/rss.xml?pid=26502",
   "title": "Раскрашенные Раскраски",
-  "updatedAt": "2026-10-26",
+  "updatedAt": "2026-11-11",
   "episodes": [
     {
       "id": "http://warningcolored.podster.fm/1",
